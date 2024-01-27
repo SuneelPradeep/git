@@ -1,7 +1,7 @@
 # React + Vite
 
-- This repository contains code which has functionality of git repo search and sort
-- you can have a look at it at https://gitreposearchsort.netlify.app/
+- This repository contains code that has the functionality of GIT repo search and sort made using ReactJS, ANTDesign, Axios, and GitHub API
+- you can have a look here at the deployed site https://gitreposearchsort.netlify.app/
 - 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
