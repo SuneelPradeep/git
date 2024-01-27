@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+body {
+  background:#1A1A40; /* #8758ff; */
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+}
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.TodoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.todo-btn{
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.1rem;
+  cursor : pointer;
+}
+.search_select{
+  padding:0.5rem;
+  background:#8758ff;
+  cursor:pointer;
+  color:white;
+}
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  width: 20%;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+.firstcolumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondcolumn{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  justify-content: center;
+  align-items: center;
+}
+.col_h1{
+  font-size:1.2rem;
+  overflow: hidden; /* Hide content that overflows the box */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  text-overflow: ellipsis;
+}
+.row_style{
+  margin-top: 1rem;
+}
+.card_fig1{
+  width: 4rem;
+  display: flex;
+}
+.card_fig{
+  width: 4rem;
+  display: flex;
+  gap:'0.2rem'
+  /* flex-direction: column; */
+}
+.card_avatar{
+  border-radius: 50%;
+}
+.card_first{
+  display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+.Todo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  width: 25rem;
+  height: auto;
+  /* flex-wrap: wrap; */
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
